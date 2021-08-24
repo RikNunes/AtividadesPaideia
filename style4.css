@@ -1,0 +1,166 @@
+#tudo{
+    height: 1000px;
+    width: 1500px;
+}
+
+#parte_inferior{
+    height: 1000px;
+}
+
+#verdeclaro{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    margin: 10px;
+
+}
+
+#l1{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 70px;
+    margin-left: -60px;
+}
+
+#l2{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 130px;
+    margin-left: -60px;
+}
+
+#l3{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 190px;
+    margin-left: -60px;
+}
+
+#l4{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 250px;
+    margin-left: -60px;
+}
+
+#l5{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 310px;
+    margin-left: -60px;
+}
+
+#l6{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 370px;
+    margin-left: -60px;
+}
+
+#a1{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 70px;
+}
+
+#a2{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 130px;
+    margin-left: -50px;
+}
+
+#a3{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 190px;
+    margin-left: -50px;
+}
+
+#a4{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 250px;
+    margin-left: -50px;
+}
+
+#a5{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 310px;
+    margin-left: -50px;
+}
+
+#a6{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 370px;
+    margin-left: -50px;
+}
+
+#azul{
+    height: 410px;
+    width: 770px;
+    background-color: blue;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#verde{
+    height: 410px;
+    width: 370px;
+    background-color: green;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.menu{
+	background-color: rgb(48, 47, 47);
+	height: 170px;
+	width: 1150px;
+	box-shadow: 0px 0px 5px #000000;
+	border: 2px solid green;
+}
+
+/*Define o estilo dos links no menu*/
+.menu a{
+	color: #FFFFFF; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 65px 65px;
+	float: left;
+}
+/*muda de cor ao passar no menu*/
+.menu a:hover {
+	background-color: green;
+	color: black;
+}

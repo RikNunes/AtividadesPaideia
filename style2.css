@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+
+#parte_superior{
+    width: 1000px;
+    height: 570px;
+    background-color: grey;
+}
+ #tudo{
+     width: 1000px;
+     background-color: green;
+     height: 1200px;
+     margin: 0 auto;
+     border-width: 2px;
+     border-style: solid;
+     border-color: lightgreen;
+ }
+ 
+
+#publicidade{
+    background-image: url(\img1/Spotify-Banner.png);
+    height: 310px;
+    width: 100%;
+}
+
+#parte_inferior{
+    height: 695px;
+}
+
+#titulo{
+    height: 25px;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+
+    
+}
+
+
+#pe{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+p{
+    font-style: arial;
+    font-size: 15px;
+}
+.img{
+    display: block;
+    margin: auto;
+}
+.menu{
+	background-color: rgb(48, 47, 47);
+	height: 170px;
+	width: 1000px;
+	box-shadow: 0px 0px 5px #000000;
+	border: 2px solid green;
+}
+
+/*Define o estilo dos links no menu*/
+.menu a{
+	color: #FFFFFF; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 65px 65px;
+	float: left;
+}
+/*muda de cor ao passar no menu*/
+.menu a:hover {
+	background-color: green;
+	color: black;
+}

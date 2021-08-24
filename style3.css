@@ -1,0 +1,133 @@
+body{
+    background-color: whitesmoke;
+}
+
+#parte_superior{
+    width: 1000px;
+    height: 270px;
+    background-color: white;
+}
+ #tudo{
+     width: 1000px;
+     background-color: grey;
+     height: 1000px;
+     margin: 0 auto;
+     border: 1px 1px white;
+     border-style: solid;
+
+ }
+ #logo{
+     background-color: #82D2D3;
+     width: 100%;
+     height: 120px;
+ }
+
+.menu{
+	background-color: black;
+	height: 150px;
+	width: 1000px;
+	box-shadow: 0px 0px 5px #FFFFFF;
+	border: 2px solid grey;
+}
+
+#parte_inferior{
+ height: 100px;
+}
+
+#titulo{
+    height: 30px;
+    width: 100%;
+    background-color: White;
+    text-align: center;
+    
+}
+
+
+
+.img1{
+    width: 100%;
+    height: 130px;
+}
+/*Define o estilo dos links no menu*/
+.menu a{
+	color: powderblue; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 70px 70px;
+    margin: 10px;
+	float: left;
+}
+/*muda de cor ao passar no menu*/
+.menu a:hover {
+	background-color: grey;
+	color: black;
+    height: 10px;
+}
+.parte1{
+    height: 300px;
+    width: 300px;
+    float: left;
+    border: 1px 1px black;
+    box-shadow: 1px 1px black;
+    margin: 10px;
+}
+.parte2{
+    height: 250px;
+    width: 250px;
+    float: left;
+    box-shadow: 1px 1px black;
+    margin: 30px;
+}
+.parte3{
+    height: 150px;
+    width: 52%;
+    float: right;
+    margin: 10px;
+}
+.parte4{
+    float: left;
+    margin: 5px;
+}
+
+
+.menu_inicio{
+	background-color: black;
+	height: 150px;
+	width: 1000px;
+	box-shadow: 0px 0px 5px #FFFFFF;
+	border: 2px solid grey;
+}
+.menu_inicio a{
+	color: powderblue; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 70px 70px;
+	float: left;
+}
+.menu_inicio a:hover {
+	background-color: grey;
+	color: black;
+    height: 10px;
+}
+.menu_sobre{
+	background-color: black;
+	height: 150px;
+	width: 1000px;
+	box-shadow: 0px 0px 5px #FFFFFF;
+	border: 2px solid grey;
+}
+.menu_sobre a{
+	color: powderblue; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 70px 70px;
+	float: left;
+}
+.menu_sobre a:hover {
+	background-color: grey;
+	color: black;
+    height: 10px;
+}

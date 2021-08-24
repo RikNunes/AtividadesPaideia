@@ -1,0 +1,74 @@
+.tittle{
+    color: blue;
+    font-size: 25px;
+    
+}
+#h2{
+    text-align: center;
+    color: blue;
+    
+}
+.P1{
+    font-style: Arial;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#img1{
+    background-color: rgba(105, 105, 105, 0.04);
+    display: block;
+    margin: auto;
+}
+#link_maluco{
+    color: darkred;
+}
+li{
+    color: white;
+    text-shadow: 5px 5px grey;
+    font-size: 20px;
+}
+#p2{
+    color: whitesmoke;
+    font-style: Arial;
+    text-shadow: 1px 1px black;
+}
+#p3{
+    color: whitesmoke;
+    font-style: Arial;
+    text-shadow: 1px 1px black;
+}
+.img2{
+    display: block;
+    margin: auto;
+}
+.img3{
+    display: block;
+    margin: auto;
+}
+h3{
+    font-style: Arial;
+    text-shadow: 2px 2px purple;
+    color: white;
+}
+
+.menu{
+	background-color: rgb(48, 47, 47);
+	height: 170px;
+	width: 1150px;
+	box-shadow: 0px 0px 5px #000000;
+	border: 2px solid green;
+}
+
+/*Define o estilo dos links no menu*/
+.menu a{
+	color: #FFFFFF; /*cor da fonte do link*/
+	text-align: center; 
+	text-decoration: none; /*retira a sublinha do link*/
+	font-size: 20px;
+	padding: 65px 65px;
+	float: left;
+}
+/*muda de cor ao passar no menu*/
+.menu a:hover {
+	background-color: green;
+	color: black;
+}
